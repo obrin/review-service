@@ -1,8 +1,8 @@
 build:
-	pack build jordanyong/review-service --builder gcr.io/buildpacks/builder:v1
+	pack build jordanyong/sample-review-service --builder gcr.io/buildpacks/builder:v1
 publish:
-	docker push jordanyong/review-service
+	docker push jordanyong/sample-review-service
 helm-update:
 	helm dependency update charts
 release:
-	helm upgrade --install review-service charts
+	helm upgrade --install sample-review-service charts

@@ -1,5 +1,5 @@
 {
-  "name": "review-service",
+  "name": "sample-review-service",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

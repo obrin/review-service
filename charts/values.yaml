@@ -4,7 +4,7 @@ mainDeployment:
     app:
       pullPolicy: IfNotPresent
       image:
-        repository: jordanyong/review-service
+        repository: jordanyong/sample-review-service
       ports:
         - name: http
           containerPort: 4002

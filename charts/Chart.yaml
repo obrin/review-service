@@ -1,6 +1,6 @@
 apiVersion: v2
-description: review-service
-name: review-service
+description: sample-review-service
+name: sample-review-service
 version: 0.1.2
 type: application
 appVersion: 0.1.2
