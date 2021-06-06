@@ -47,6 +47,7 @@ const resolvers = {
 }
 
 const server = new ApolloServer({
+  playground: true,
   schema: buildFederatedSchema([
     {
       typeDefs,
